@@ -1,0 +1,24 @@
+.intro {
+    margin: 92px auto 92px 148px;
+    max-width: 690px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+  
+  @media screen and (max-width:1279px) {
+   .intro {
+      margin: 92px auto 92px 48px;
+  }
+}
+  @media screen and (max-width:1023px) {
+   .intro {
+      margin: 88px auto 88px 24px;
+  }
+}
+  @media screen and (max-width:767px) {
+   .intro {
+      margin: 64px auto 64px 16px;
+  }
+}

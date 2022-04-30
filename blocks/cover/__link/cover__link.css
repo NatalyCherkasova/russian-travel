@@ -1,0 +1,36 @@
+.cover__link{
+  margin: 0 auto;
+  max-width: 1184px;
+  height: 740px;
+  background-image: url(../../../Images/__background.png);
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  position: relative;
+}
+
+@media screen and (max-width:1279px) {
+  .cover__link {
+    width: 100vw;
+    height: 62.5vw;
+  }
+}
+
+.cover__link::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 4s ease-in linear;
+}
+
+.cover__link:hover::after {
+  opacity: 0.8;
+  cursor: pointer;
+}

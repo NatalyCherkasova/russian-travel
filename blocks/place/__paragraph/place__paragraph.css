@@ -1,0 +1,11 @@
+.place__paragraph {
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragraph:nth-of-type(n+2) {
+  margin-top: 26px;
+}
