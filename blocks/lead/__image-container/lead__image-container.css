@@ -4,7 +4,7 @@
     display: flex;
     position: relative;
 }
-  
+
 .lead__image-container::before {
     position: absolute;
     top: 15%;
@@ -12,7 +12,7 @@
     content: '';
     width: 95%;
     height: 263px;
-    background-image: url("/Images/Map.svg");
+    background-image: url("../../../Images/Map.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
