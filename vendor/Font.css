@@ -2,22 +2,22 @@
     font-family: 'Inter';
     font-style: normal;
     font-display: swap;
-    src: url(Fonts/inter-v8-latin_cyrillic/inter-v8-latin_cyrillic-regular.woff) format("woff");
+    src: url(../vendor/inter-v8-latin_cyrillic/inter-v8-latin_cyrillic-regular.woff) format("woff");
     font-weight: 400;
   }
-  
+
   @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-display: swap;
-    src: url(Fonts/inter-v8-latin_cyrillic/inter-v8-latin_cyrillic-900.woff) format("woff");
+    src: url(../vendor/inter-v8-latin_cyrillic/inter-v8-latin_cyrillic-900.woff) format("woff");
     font-weight: 900;
   }
-  
+
   @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-display: swap;
-    src: url(/Fonts/inter-v8-latin_cyrillic/inter-v8-latin_cyrillic-700.woff) format("woff");
+    src: url(../vendor/inter-v8-latin_cyrillic/inter-v8-latin_cyrillic-700.woff) format("woff");
     font-weight: 700;
   }
