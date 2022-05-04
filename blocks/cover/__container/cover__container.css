@@ -1,13 +1,4 @@
 .cover__container {
   margin: auto;
-  width: 560px;
-  height: 250px;
   position: relative;
-}
-
-@media screen and (max-width:767px) {
-  .cover__container {
-    width: 100vw;
-    height: 62.5vw;
-  }
 }

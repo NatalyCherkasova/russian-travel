@@ -1,6 +1,6 @@
 .lead__image-cover {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
