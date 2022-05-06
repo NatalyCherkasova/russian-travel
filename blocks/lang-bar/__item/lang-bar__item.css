@@ -1,3 +1,18 @@
 .lang-bar__item {
+  margin: auto 0 5px 0;
+  display: block;
   list-style: none;
+}
+
+.lang-bar__item:last-of-type {
+  margin: auto 0 5px 18px;
+}
+
+@media screen and (max-width:767px) {
+  .lang-bar__item {
+    margin: auto 0 7px 0;
+  }
+  .lang-bar__item:last-of-type {
+    margin: auto 0 7px 18px;
+  }
 }

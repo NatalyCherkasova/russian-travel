@@ -1,7 +1,7 @@
 .cover__link{
   margin: 0 auto;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   background-image: url(../../../Images/__background.png);
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 @media screen and (max-width:1279px) {
   .cover__link {
     width: 100vw;
-    height: 62.5vw;
+    min-height: 62.5vw;
   }
 }
 
