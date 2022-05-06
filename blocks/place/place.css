@@ -28,8 +28,8 @@
 
 @media screen and (max-width:767px) {
   .place {
-    margin: 0 auto 32px auto;
-    grid-template-columns: repeat(auto-fit, 288px);
+    margin: 0 auto 50px auto;
+    grid-template-columns: repeat(auto-fit, 320px);
     grid-row-gap: 32px;
 
   }

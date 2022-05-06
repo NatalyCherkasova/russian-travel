@@ -17,3 +17,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 17px;
+  }
+
+  .place__paragraph:nth-of-type(n+2) {
+    margin-top: 25px;
+  }
+}

@@ -1,8 +1,15 @@
 .place__url-heading {
   margin: auto auto 12px 0;
+  padding: 0 16px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
   letter-spacing: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .place__url-heading {
+    padding: 0;
+  }
 }
