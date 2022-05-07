@@ -2,7 +2,3 @@
     border-bottom:  1px solid #FFFFFF;
 }
 
-.header__lang-link_active:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
