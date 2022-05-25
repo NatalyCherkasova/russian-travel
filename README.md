@@ -12,4 +12,4 @@
   <li>от 320 и до 768 пикселей — от смартфона до вертикального положения планшета.</li>
 </ul>
 
-<img src="Images/for_READme.jpg" alt="Внешний вид сайта">
+<img src="static/Images/for_READme.jpg" alt="Внешний вид сайта">

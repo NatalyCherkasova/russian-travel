@@ -1,0 +1,25 @@
+{
+  "name": "russian-travel",
+  "version": "0.1.0",
+  "description": "Russian travel education project",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalyCherkasova/russian-travel.git"
+  },
+  "author": "Nataly Cherkasova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalyCherkasova/russian-travel/issues"
+  },
+  "homepage": "https://github.com/NatalyCherkasova/russian-travel#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "normalize.css": "^8.0.1"
+  }
+}
